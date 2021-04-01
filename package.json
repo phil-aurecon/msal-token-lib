@@ -1,0 +1,23 @@
+{
+  "name": "msal-token-lib",
+  "version": "1.2.2",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "bayeslife",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^2.8.0",
+    "@types/react": "^17.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
